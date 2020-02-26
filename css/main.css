@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+html, body { height: 100%; }
+
+body {
+  color: #333;
+  background-color: #f5f5f5;
+  font: 20px/28px Georgia, serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+h2 {
+  margin: .75em 0 .5em;
+  font-size: 1.5em;
+}
+
+em { font-style: italic; }
+
+p {
+  margin: .5em 0 1em;
+  text-align: justify;
+}
+
+ul { margin: 1em 0 1em 1.5em; }
+
+li {
+  margin: .2em 0;
+  list-style-type: circle;
+}
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#box {
+  width: 37.5em;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+h1#title {
+  margin: 2em 0 .5em;
+  font-size: 2.6em;
+}
+
+#subtitle {
+  margin: .5em 0 2.5em;
+  font-style: italic;
+}
+
+#subtitle:before { content: "– "; }
+#subtitle:after { content: " –"; }
+
+h1#title, #subtitle { text-align: center; }
+
+#jobs { font: 0.75em/1.5em Georgia, serif; }
+
+#jobs .job-entry .period {
+  float: left;
+  width: 8em;
+  text-align: right;
+}
+
+#jobs .job-entry .job { margin-left: 9em; }
+
+#jobs .job-entry .job h1 {
+  display: inline;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+#jobs .job-entry .job h2 {
+  font-size: 1em;
+}
+
+#jobs .job-entry .job h1:after { content: " –"; }
+
+#jobs .job-entry .job p { margin: 0 0 1em; }
